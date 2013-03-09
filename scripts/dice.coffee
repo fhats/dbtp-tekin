@@ -1,1 +1,1 @@
-available-scripts/dice.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/dice.coffee

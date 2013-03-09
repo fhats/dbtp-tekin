@@ -1,1 +1,1 @@
-available-scripts/twss.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/twss.coffee

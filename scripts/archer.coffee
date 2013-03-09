@@ -1,1 +1,1 @@
-available-scripts/archer.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/archer.coffee

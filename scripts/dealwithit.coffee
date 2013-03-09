@@ -1,1 +1,1 @@
-available-scripts/dealwithit.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/dealwithit.coffee

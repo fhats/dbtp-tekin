@@ -1,1 +1,1 @@
-available-scripts/lastfm_np.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/lastfm_np.coffee

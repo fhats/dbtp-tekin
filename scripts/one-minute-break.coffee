@@ -1,1 +1,1 @@
-available-scripts/one-minute-break.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/one-minute-break.coffee

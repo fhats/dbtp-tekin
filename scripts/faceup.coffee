@@ -1,1 +1,1 @@
-available-scripts/faceup.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/faceup.coffee

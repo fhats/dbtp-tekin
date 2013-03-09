@@ -1,1 +1,1 @@
-available-scripts/haters.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/haters.coffee

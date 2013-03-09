@@ -1,1 +1,1 @@
-available-scripts/roles.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/roles.coffee

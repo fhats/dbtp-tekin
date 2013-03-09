@@ -1,1 +1,1 @@
-available-scripts/polite.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/polite.coffee

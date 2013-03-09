@@ -1,1 +1,1 @@
-available-scripts/sosearch.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/sosearch.coffee

@@ -1,1 +1,1 @@
-available-scripts/uptime.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/uptime.coffee

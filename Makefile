@@ -11,4 +11,5 @@ install:
 	sudo cp init/tekin.conf /etc/init/tekin.conf
 
 scripts:
-	tools/build-scripts installed-scripts scripts available-scripts
+	PWD=`pwd`
+	tools/build-scripts ${PWD}/installed-scripts ${PWD}/scripts ${PWD}/available-scripts

@@ -1,1 +1,1 @@
-available-scripts/tableflip.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/tableflip.coffee

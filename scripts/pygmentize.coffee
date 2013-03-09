@@ -1,1 +1,1 @@
-available-scripts/pygmentize.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/pygmentize.coffee

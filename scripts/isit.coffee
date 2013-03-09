@@ -1,1 +1,1 @@
-available-scripts/isit.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/isit.coffee

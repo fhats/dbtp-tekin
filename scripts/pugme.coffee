@@ -1,1 +1,1 @@
-available-scripts/pugme.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/pugme.coffee

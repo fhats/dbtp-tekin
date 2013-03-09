@@ -1,1 +1,1 @@
-available-scripts/remind.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/remind.coffee

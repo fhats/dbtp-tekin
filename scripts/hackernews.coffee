@@ -1,1 +1,1 @@
-available-scripts/hackernews.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/hackernews.coffee

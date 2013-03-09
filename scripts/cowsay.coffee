@@ -1,1 +1,1 @@
-available-scripts/cowsay.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/cowsay.coffee

@@ -1,1 +1,1 @@
-available-scripts/shorten.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/shorten.coffee

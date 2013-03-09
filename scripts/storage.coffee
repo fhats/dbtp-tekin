@@ -1,1 +1,1 @@
-available-scripts/storage.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/storage.coffee

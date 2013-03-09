@@ -1,1 +1,1 @@
-available-scripts/math.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/math.coffee

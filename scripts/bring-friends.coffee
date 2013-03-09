@@ -1,1 +1,1 @@
-available-scripts/bring-friends.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/bring-friends.coffee

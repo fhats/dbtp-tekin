@@ -1,1 +1,1 @@
-available-scripts/hangman.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/hangman.coffee

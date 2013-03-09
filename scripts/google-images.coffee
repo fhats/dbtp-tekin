@@ -1,1 +1,1 @@
-available-scripts/google-images.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/google-images.coffee

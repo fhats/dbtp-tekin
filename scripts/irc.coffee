@@ -1,1 +1,1 @@
-available-scripts/irc.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/irc.coffee

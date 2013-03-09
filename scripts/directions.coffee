@@ -1,1 +1,1 @@
-available-scripts/directions.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/directions.coffee

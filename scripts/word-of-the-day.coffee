@@ -1,1 +1,1 @@
-available-scripts/word-of-the-day.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/word-of-the-day.coffee

@@ -1,1 +1,1 @@
-available-scripts/sudo.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/sudo.coffee

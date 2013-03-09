@@ -1,1 +1,1 @@
-available-scripts/look-of-disapproval.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/look-of-disapproval.coffee

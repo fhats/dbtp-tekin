@@ -1,1 +1,1 @@
-available-scripts/web.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/web.coffee

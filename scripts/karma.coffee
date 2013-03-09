@@ -1,1 +1,1 @@
-available-scripts/karma.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/karma.coffee

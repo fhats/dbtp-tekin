@@ -1,1 +1,1 @@
-available-scripts/cats.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/cats.coffee

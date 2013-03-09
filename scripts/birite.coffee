@@ -1,1 +1,1 @@
-available-scripts/birite.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/birite.coffee

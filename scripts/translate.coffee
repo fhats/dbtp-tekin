@@ -1,1 +1,1 @@
-available-scripts/translate.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/translate.coffee

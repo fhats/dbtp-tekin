@@ -1,1 +1,1 @@
-available-scripts/insult.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/insult.coffee

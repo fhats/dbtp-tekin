@@ -1,1 +1,1 @@
-available-scripts/fortune.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/fortune.coffee

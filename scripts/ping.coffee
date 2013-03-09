@@ -1,1 +1,1 @@
-available-scripts/ping.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/ping.coffee

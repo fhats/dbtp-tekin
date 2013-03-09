@@ -1,1 +1,1 @@
-available-scripts/youtube.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/youtube.coffee

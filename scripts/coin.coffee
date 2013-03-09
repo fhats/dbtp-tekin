@@ -1,1 +1,1 @@
-available-scripts/coin.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/coin.coffee

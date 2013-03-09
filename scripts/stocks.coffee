@@ -1,1 +1,1 @@
-available-scripts/stocks.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/stocks.coffee

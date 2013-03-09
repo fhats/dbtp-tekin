@@ -1,1 +1,1 @@
-available-scripts/rain.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/rain.coffee

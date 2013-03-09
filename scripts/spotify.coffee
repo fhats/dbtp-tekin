@@ -1,1 +1,1 @@
-available-scripts/spotify.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/spotify.coffee

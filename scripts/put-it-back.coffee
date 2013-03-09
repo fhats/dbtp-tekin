@@ -1,1 +1,1 @@
-available-scripts/put-it-back.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/put-it-back.coffee

@@ -1,1 +1,1 @@
-available-scripts/shipit.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/shipit.coffee

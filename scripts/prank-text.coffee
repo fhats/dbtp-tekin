@@ -1,1 +1,1 @@
-available-scripts/prank-text.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/prank-text.coffee

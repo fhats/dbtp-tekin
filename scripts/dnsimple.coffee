@@ -1,1 +1,1 @@
-available-scripts/dnsimple.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/dnsimple.coffee

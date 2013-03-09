@@ -1,1 +1,1 @@
-available-scripts/events.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/events.coffee

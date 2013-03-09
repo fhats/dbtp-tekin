@@ -1,1 +1,1 @@
-available-scripts/poll.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/poll.coffee

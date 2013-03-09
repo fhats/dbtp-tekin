@@ -1,1 +1,1 @@
-available-scripts/wunderground.coffee
+/home/fhats/configs/dbtp-tekin/available-scripts/wunderground.coffee
