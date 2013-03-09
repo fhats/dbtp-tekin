@@ -18,7 +18,13 @@
     "hubot": ">=2.4.7",
     "hubot-scripts": ">= 2.4.1",
     "optparse": "1.0.3",
-	"hubot-irc": ">= 0.0.1"
+    "hubot-irc": ">= 0.0.1",
+	"soupselect": "0.2.0",
+	"htmlparser": "1.7.6",
+	"wwwdude": "0.1.0",
+	"xml2js": "0.2.6",
+	"nodepie": "0.6.0",
+	"jsdom": "0.5.1"
   },
 
   "engines": {
