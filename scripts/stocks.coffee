@@ -1,0 +1,1 @@
+available-scripts/stocks.coffee

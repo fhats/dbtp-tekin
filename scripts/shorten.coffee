@@ -1,0 +1,1 @@
+available-scripts/shorten.coffee

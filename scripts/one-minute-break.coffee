@@ -1,0 +1,1 @@
+available-scripts/one-minute-break.coffee

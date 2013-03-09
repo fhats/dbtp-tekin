@@ -1,0 +1,1 @@
+available-scripts/word-of-the-day.coffee

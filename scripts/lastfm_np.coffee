@@ -1,0 +1,1 @@
+available-scripts/lastfm_np.coffee

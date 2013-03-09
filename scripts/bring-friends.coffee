@@ -1,0 +1,1 @@
+available-scripts/bring-friends.coffee

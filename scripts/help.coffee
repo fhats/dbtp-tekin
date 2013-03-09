@@ -1,0 +1,1 @@
+available-scripts/help.coffee
