@@ -1,2 +1,4 @@
 node_modules
+# Build the scripts directory with `make scripts`
+scripts/*
 .DS_Store*

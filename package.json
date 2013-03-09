@@ -24,7 +24,8 @@
 	"wwwdude": "0.1.0",
 	"xml2js": "0.2.6",
 	"nodepie": "0.6.0",
-	"jsdom": "0.5.1"
+	"jsdom": "0.5.1",
+	"underscore": ""
   },
 
   "engines": {
