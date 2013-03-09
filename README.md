@@ -11,3 +11,6 @@ Requires nodejs and npm to get started:
 	sudo add-apt-repository ppa:chris-lea/node.js
 	sudo apt-get update
 	sudo apt-get install nodejs npm
+
+Other packages to install:
+* redis-server
