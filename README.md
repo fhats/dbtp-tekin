@@ -14,3 +14,11 @@ Requires nodejs and npm to get started:
 
 Other packages to install:
 * redis-server
+
+## Scripts
+
+Script files are maintained in the `available-scripts` directory. Scripts are
+activated by containing a symlink in `scripts` to a script in
+`available-scripts` with the same name. `make scripts` can be used to automate
+this process, and will build the `scripts` directory based on the contents of
+`installed-scripts`.

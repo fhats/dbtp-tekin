@@ -1,0 +1,23 @@
+#!/bin/bash
+
+## build-scripts
+## Author: Fred Hatfull
+## Reads a given file ($1) and for each line creates a symlink in $2 if the
+## line exists in directory $3.
+
+MANIFEST="$1"
+DEST="${2%/}"
+SRC="${3%/}"
+
+rm -f $DEST/*
+
+while read line
+do
+	if [ -f "$SRC/$line.coffee" ]
+	then
+		echo "Installing script $line"
+		ln -s "$SRC/$line.coffee" "$DEST/$line.coffee"
+	else
+		echo "Cowardly refusing to install non-existent package $line!"
+	fi
+done < "$MANIFEST"

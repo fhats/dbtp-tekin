@@ -1,1 +1,10 @@
-["redis-brain.coffee", "tweet.coffee", "shipit.coffee"]
+[
+	"ackbar.coffee",
+	"alot.coffee",
+	"auto-stache.coffee",
+	"news.coffee",
+	"redis-brain.coffee",
+	"shipit.coffee",
+	"tweet.coffee",
+	"weather.coffee"
+]
