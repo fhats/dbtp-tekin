@@ -27,10 +27,14 @@ module.exports = (robot) ->
       imageMe msg, imagery, false, true, (url) ->
         msg.send "#{mustachify}#{url}"
 
-imageMe = (msg, query, animated, faces, cb) ->
+  robot.respond /(risky)( me)? (.*)/i, (msg) ->
+    imageMe msg, msg.match[3], false, false, 'off', (url) ->
+      msg.send url
+
+imageMe = (msg, query, animated, faces, safe='active', cb) ->
   cb = animated if typeof animated == 'function'
   cb = faces if typeof faces == 'function'
-  q = v: '1.0', rsz: '8', q: query, safe: 'active'
+  q = v: '1.0', rsz: '8', q: query, safe: safe
   q.as_filetype = 'gif' if typeof animated is 'boolean' and animated is true
   q.imgtype = 'face' if typeof faces is 'boolean' and faces is true
   msg.http('http://ajax.googleapis.com/ajax/services/search/images')
