@@ -5,7 +5,7 @@ christmas = (msg) ->
   msg.http("http://isitchristmas.com/rss.xml").get() (err, res, body) ->
     parser.parseString body, (err, result) ->
       if not err?
-        msg.reply result.channel.item[0].title
+        msg.reply result.rss.channel[0].item[0].title
 
 friday = (msg) ->
   day = new Date().getDay()
