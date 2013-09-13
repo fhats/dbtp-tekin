@@ -28,8 +28,5 @@ module.exports = (robot) ->
   robot.hear /should i/i, (msg) ->
     msg.send msg.random eightball
 
-  robot.hear /i should/i, (msg) ->
-    msg.send msg.random eightball
-
   robot.respond /eightball/i, (msg) ->
     msg.send msg.random eightball
