@@ -25,7 +25,8 @@
 	"xml2js": "0.2.6",
 	"nodepie": "0.6.0",
 	"jsdom": "0.5.1",
-	"underscore": ""
+	"underscore": "",
+    "twilio": "1.5.0"
   },
 
   "engines": {
