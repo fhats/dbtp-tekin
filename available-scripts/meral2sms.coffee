@@ -18,7 +18,7 @@ module.exports = (robot) ->
         else
           phones = JSON.parse(file)
           client = new twilio.RestClient(twilio_sid, twilio_token)
-          client.sms.messages.create({
+          client.messages.create({
             to: random.choice(phones)
             from: twilio_number,
             body:msg.message.text
