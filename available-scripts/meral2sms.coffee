@@ -7,7 +7,7 @@ sms_chance = 5
 
 module.exports = (robot) ->
   robot.hear //, (msg) ->
-    if msg.message.user.name == "meral" and random.randrange(0, sms_chance) == 1
+    if msg.message.user.name == "meral" and random.randrange(0, sms_chance) == 1 and msg.message.text.indexOf("Error: I was unable to generate") == -1
       fileName = path.join process.cwd(), "phones"
       twilio_sid = fs.readFileSync("/etc/twilio_sid", "utf-8").replace(/\n$/, '')
       twilio_token = fs.readFileSync("/etc/twilio_token", "utf-8").replace(/\n$/, '')
