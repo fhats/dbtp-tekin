@@ -6,6 +6,14 @@ twilio = require("twilio")
 sms_chance = 5
 
 module.exports = (robot) ->
+  robot.hear /barf (meral|phone)? numbers/i, (msg) ->
+    fileName = path.join process.cwd(), "phones"
+    fs.readFile fileName, (err, file) ->
+      if (err)
+        throw err
+      else
+        msg.send file
+
   robot.hear //, (msg) ->
     if msg.message.user.name == "meral" and random.randrange(0, sms_chance) == 1 and msg.message.text.indexOf("Error: I was unable to generate") == -1
       fileName = path.join process.cwd(), "phones"
