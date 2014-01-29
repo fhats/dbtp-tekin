@@ -2,6 +2,7 @@
 	"ackbar.coffee",
 	"alot.coffee",
 	"auto-stache.coffee",
+	"eightball.coffee",
 	"news.coffee",
 	"redis-brain.coffee",
 	"shipit.coffee",
