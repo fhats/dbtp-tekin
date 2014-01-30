@@ -32,7 +32,7 @@ module.exports = (robot) ->
         else
           phones = JSON.parse(file)
           client = new twilio.RestClient(twilio_sid, twilio_token)
-          if random.randrange(0, phone_chance) == 1:
+          if random.randrange(0, phone_chance) == 1
             twiml = twiml_start + msg.message.text + twiml_end
             twimlet_url = twimlet_base + encodeURIComponent(twiml)
             client.calls.create({
