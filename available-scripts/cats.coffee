@@ -37,7 +37,7 @@ retrieveThings = (msg, thing, count) ->
   for thingSource in thingMap[thing]
     msg.http("http://imgur.com/r/#{thingSource}.json")
       .get() (err, res, body) ->
-        generateReturn JSON.parse(body).gallery
+        generateReturn JSON.parse(body).data
 
 module.exports = (robot) ->
   robot.respond /give me (a|\d+)?\s*(\w+)/i, (msg) ->
