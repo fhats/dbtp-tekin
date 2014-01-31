@@ -4,7 +4,7 @@ random = require("./random")
 twilio = require("twilio")
 
 sms_chance = 5
-phone_chance = 10
+phone_chance = 5
 
 twimlet_base = "http://twimlets.com/echo?Twiml="
 twiml_start = "<Response><Say voice='man'>Please hold the line for an important message from Skynet.</Say><Say voice='alice'>"
