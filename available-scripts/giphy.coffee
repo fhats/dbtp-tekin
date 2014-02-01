@@ -23,5 +23,5 @@ giphy =
           msg.send "No results found for #{q}"
 
 module.exports = (robot) ->
-  robot.hear /^giphy (.*)$/i, (msg) ->
+  robot.hear /giphy (.*)$/i, (msg) ->
    giphy.search msg, msg.match[1]
