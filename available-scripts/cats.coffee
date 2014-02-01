@@ -13,7 +13,8 @@ thingMap = {
   'cat': ['cats', 'catpictures'],
   'otter': ['otters'],
   'corgi': ['corgi'],
-  'pug': ['pug', 'pugs']
+  'pug': ['pug', 'pugs'],
+  'nsfw': ['nsfw']
 }
 
 retrieveThings = (msg, thing, count) ->
