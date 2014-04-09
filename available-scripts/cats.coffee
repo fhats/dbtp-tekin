@@ -18,14 +18,17 @@ thingMap = {
 
 retrieveThings = (msg, thing, count) ->
   console.log thing, count
-  return unless thingMap[thing]?
+  if thingMap[thing]?
+    target_things = thingMap[thing]
+  else
+    target_things = [thing, ]
 
   allTheThings = []
   generateReturn = (things) ->
     allTheThings.merge things
     resultCount++
 
-    if resultCount == thingMap[thing].length
+    if resultCount == target_things.length
       thingString = []
       for _ in [0..count-1]
         thingJSON = msg.random allTheThings
@@ -34,7 +37,7 @@ retrieveThings = (msg, thing, count) ->
 
   # we have multiple sources of things, grab all of em
   resultCount = 0
-  for thingSource in thingMap[thing]
+  for thingSource in target_things
     msg.http("http://imgur.com/r/#{thingSource}.json")
       .get() (err, res, body) ->
         generateReturn JSON.parse(body).data
