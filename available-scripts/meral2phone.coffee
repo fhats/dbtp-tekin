@@ -8,7 +8,7 @@ phone_chance = 5
 
 twimlet_base = "http://twimlets.com/echo?Twiml="
 twiml_start = "<Response><Say voice='man'>Please hold the line for an important message from Skynet.</Say><Say voice='alice'>"
-twiml_end = "</Say></Response>"
+twiml_end = "</Say><Say voice='man'>This has been a message from Skynet.</Say></Response>"
 
 
 module.exports = (robot) ->
