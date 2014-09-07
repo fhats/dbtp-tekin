@@ -6,14 +6,13 @@
 #
 
 fs = require('fs')
+random = require('./random')
 
 module.exports = (robot) ->
 
   robot.respond /fortune( me)?/i, (msg) ->
-    fs.readFile 'quotes', 'utf-8', (err, contents) ->
-      entries = (entry for entry in contents.split('%') when entry.split('\n').length <= 5)
-      idx = Math.floor(Math.random() * entries.length)
-      msg.send entries[idx]
+    fortunes = JSON.parse(robot.brain.get("fortunes")["fortunes"])
+    msg.send random.choice(fortunes)
 
   robot.respond /add fortune\s+(.*)$/i, (msg) ->
     quotes = "#{msg.match[1]}\n%\n"
