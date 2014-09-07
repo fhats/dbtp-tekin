@@ -37,5 +37,5 @@ ENV HUBOT_IRC_PORT      6697
 ENV HUBOT_IRC_USESSL    1
 ENV HUBOT_IRC_SERVER_FAKE_SSL 1
 
-ENTRYPOINT /opt/tekin/bin/hubot --name $HUBOT_IRC_NICK --adapter $ADAPTER >/var/log/tekin 2>&1
+#ENTRYPOINT /opt/tekin/bin/hubot --name $HUBOT_IRC_NICK --adapter $ADAPTER >/var/log/tekin 2>&1
 
