@@ -10,10 +10,11 @@ twimlet_base = "http://twimlets.com/echo?Twiml="
 twiml_start = "<Response><Say voice='man'>Please hold the line for an important message from Skynet.</Say><Say voice='alice'>"
 twiml_end = "</Say><Say voice='man'>This has been a message from Skynet.</Say></Response>"
 
+phone_numbers = "/opt/tekin/data/phones"
 
 module.exports = (robot) ->
   robot.hear /barf (meral|phone)? numbers/i, (msg) ->
-    fileName = path.join process.cwd(), "phones"
+    fileName = phone_numbers
     fs.readFile fileName, (err, file) ->
       if (err)
         throw err
@@ -22,7 +23,7 @@ module.exports = (robot) ->
 
   robot.hear //, (msg) ->
     if msg.message.user.name == "meral" and random.randrange(0, sms_chance) == 1 and msg.message.text.indexOf("Error:") == -1
-      fileName = path.join process.cwd(), "phones"
+      fileName = phone_numbers
       twilio_sid = fs.readFileSync("/etc/twilio_sid", "utf-8").replace(/\n$/, '')
       twilio_token = fs.readFileSync("/etc/twilio_token", "utf-8").replace(/\n$/, '')
       twilio_number = fs.readFileSync("/etc/twilio_number", "utf-8").replace(/\n$/, '')
