@@ -24,9 +24,9 @@ module.exports = (robot) ->
   robot.hear //, (msg) ->
     if msg.message.user.name == "meral" and random.randrange(0, sms_chance) == 1 and msg.message.text.indexOf("Error:") == -1
       fileName = phone_numbers
-      twilio_sid = fs.readFileSync("/etc/twilio_sid", "utf-8").replace(/\n$/, '')
-      twilio_token = fs.readFileSync("/etc/twilio_token", "utf-8").replace(/\n$/, '')
-      twilio_number = fs.readFileSync("/etc/twilio_number", "utf-8").replace(/\n$/, '')
+      twilio_sid = process.env.TWILIO_SID
+      twilio_token = process.env.TWILIO_TOKEN
+      twilio_number = process.env.TWILIO_NUMBER
       fs.readFile fileName, (err, file) ->
         if (err)
           throw err
