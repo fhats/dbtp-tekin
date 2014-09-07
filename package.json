@@ -19,14 +19,17 @@
     "hubot-scripts": "== 2.4.3",
     "optparse": "1.0.3",
     "hubot-irc": ">= 0.0.1",
-	"soupselect": "0.2.0",
-	"htmlparser": "1.7.6",
-	"wwwdude": "0.1.0",
-	"xml2js": "0.2.6",
-	"nodepie": "0.6.0",
-	"jsdom": "0.5.1",
-	"underscore": "",
-    "twilio": "1.5.0"
+    "soupselect": "0.2.0",
+    "htmlparser": "1.7.6",
+    "wwwdude": "0.1.0",
+    "xml2js": "0.2.6",
+    "nodepie": "0.6.0",
+    "jsdom": "0.5.1",
+    "underscore": "",
+    "twilio": "1.5.0",
+    "request": "2.34.0",
+    "lob": "2.1.0",
+    "orchestrate-brain": "0.0.5"
   },
 
   "engines": {
