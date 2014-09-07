@@ -11,7 +11,7 @@ random = require('./random')
 module.exports = (robot) ->
 
   robot.respond /fortune( me)?/i, (msg) ->
-    fortunes = JSON.parse(robot.brain.get("fortunes")["fortunes"])
+    fortunes = robot.brain.data.fortunes
     msg.send random.choice(fortunes)
 
   robot.respond /add fortune\s+(.*)$/i, (msg) ->
