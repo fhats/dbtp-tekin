@@ -31,7 +31,7 @@ ENV HUBOT_USER root
 ENV PORT       11111
 
 ENV HUBOT_IRC_SERVER    irc.drinkbeyondthepossible.com
-ENV HUBOT_IRC_ROOMS     #fhats
+ENV HUBOT_IRC_ROOMS     #lobby
 ENV HUBOT_IRC_NICK      takin
 ENV HUBOT_IRC_PORT      6697
 ENV HUBOT_IRC_USESSL    1
