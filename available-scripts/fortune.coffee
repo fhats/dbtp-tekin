@@ -15,13 +15,6 @@ module.exports = (robot) ->
     msg.send random.choice(fortunes)
 
   robot.respond /add fortune\s+(.*)$/i, (msg) ->
-    quotes = "#{msg.match[1]}\n%\n"
-    log = fs.createWriteStream('quotes', {'flags': 'a'})
-    log.end msg.match[1]
-    log = fs.createWriteStream('quotes', {'flags': 'a'})
-    log.end "\n"
-    log = fs.createWriteStream('quotes', {'flags': 'a'})
-    log.end "%"
-    log = fs.createWriteStream('quotes', {'flags': 'a'})
-    log.end "\n"
+    quotes = "#{msg.match[1]}"
+    robot.brain.data.fortunes = robot.brain.data.fortunes.push(quotes)
     robot.reply "I added your quote to the db."
