@@ -28,7 +28,6 @@ ENV HUBOT      /opt/tekin/bin/hubot
 ENV HUBTOT_DIR /opt/tekin
 ENV ADAPTER    irc
 ENV HUBOT_USER root
-ENV PORT       11111
 
 ENV HUBOT_IRC_SERVER    irc.drinkbeyondthepossible.com
 ENV HUBOT_IRC_ROOMS     #lobby
