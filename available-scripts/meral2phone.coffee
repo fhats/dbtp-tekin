@@ -3,7 +3,7 @@ path = require "path"
 random = require("./random")
 twilio = require("twilio")
 
-sms_chance = 1
+sms_chance = 5
 phone_chance = 5
 
 twimlet_base = "http://twimlets.com/echo?Twiml="
