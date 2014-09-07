@@ -22,6 +22,8 @@ RUN npm install
 
 ADD ./ /opt/tekin
 
+VOLUME /opt/tekin/data
+
 RUN make scripts
 
 ENV HUBOT      /opt/tekin/bin/hubot
