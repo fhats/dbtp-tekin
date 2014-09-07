@@ -16,5 +16,5 @@ module.exports = (robot) ->
 
   robot.respond /add fortune\s+(.*)$/i, (msg) ->
     quotes = "#{msg.match[1]}"
-    robot.brain.data.fortunes = robot.brain.data.fortunes
+    robot.brain.data.fortunes.push quotes
     msg.reply "I added your quote to the db."
