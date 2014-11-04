@@ -7,6 +7,7 @@
 #   hubot mustache me <url> - Adds a mustache to the specified URL.
 #   hubot mustache me <query> - Searches Google Images for the specified query and mustaches it
 #
+random = require("./random")
 twilio = require('twilio')
 fs = require 'fs'
 
