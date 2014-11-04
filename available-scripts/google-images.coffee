@@ -46,7 +46,7 @@ sendMms = (url, query) ->
   fs.readFile phone_numbers, (err, file) ->
     if (err)
       throw err
-    else:
+    else
       phones = JSON.parse(file)
       client = new twilio.RestClient(twilio_sid, twilio_token)
       client.messages.create({
