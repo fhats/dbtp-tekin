@@ -30,7 +30,7 @@ ENV ADAPTER    irc
 ENV HUBOT_USER root
 
 ENV HUBOT_IRC_SERVER    irc.drinkbeyondthepossible.com
-ENV HUBOT_IRC_ROOMS     #lobby
+ENV HUBOT_IRC_ROOMS     #lobby,#̰͖̻̍ͩͤͣ̑͞
 ENV HUBOT_IRC_NICK      tekin
 ENV HUBOT_IRC_PORT      6697
 ENV HUBOT_IRC_USESSL    1
