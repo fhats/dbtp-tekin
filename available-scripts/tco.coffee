@@ -19,7 +19,7 @@ recurring_bills = [
 ]
 
 module.exports = (robot) ->
-	robot.respond /(what'?s the )?(total )?cost of (ownership of|owning a)/i, (msg) ->
+	robot.respond /(what'?s the )?(total )?cost of/i, (msg) ->
 		cost_type = msg.random ["single", "financed", "single_recurring"]
 
 		if cost_type == "single"
