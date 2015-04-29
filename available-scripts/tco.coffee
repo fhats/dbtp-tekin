@@ -13,7 +13,9 @@ recurring_bills = [
 	"AWS costs",
 	"munitions",
 	"legal fees",
-	"union dues"
+	"union dues",
+	"slippage fees",
+	"corkage fees"
 ]
 
 module.exports = (robot) ->
