@@ -19,6 +19,9 @@ module.exports = (robot) ->
     joiner = ', '
     name = msg.match[1].trim()
 
+    return if name is "lunch"
+    return if name is "mission bar"
+
     if name is "you"
       msg.send "Who ain't I?"
     else if name is robot.name
