@@ -1,3 +1,4 @@
 [
-    "orchestrate-brain"
+    "orchestrate-brain",
+    "hubot-s3-brain"
 ]

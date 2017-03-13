@@ -29,7 +29,8 @@
     "twilio": "1.5.0",
     "request": "2.34.0",
     "lob": "2.1.0",
-    "orchestrate-brain": "0.0.5"
+    "orchestrate-brain": "0.0.5",
+    "hubot-s3-brain": "0.1.0"
   },
 
   "engines": {
