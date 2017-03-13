@@ -38,4 +38,5 @@ ENV HUBOT_IRC_SERVER_FAKE_SSL 1
 
 ENV HUBOT_S3_BRAIN_SAVE_INTERVAL 60
 
+
 ENTRYPOINT /opt/tekin/bin/hubot --name $HUBOT_IRC_NICK --adapter $ADAPTER >/var/log/tekin 2>&1
