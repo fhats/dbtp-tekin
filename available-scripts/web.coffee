@@ -17,14 +17,15 @@ module.exports = (robot) ->
           else if res.statusCode is 200
             handler = new HtmlParser.DefaultHandler()
             parser  = new HtmlParser.Parser handler
-            parser.parseComplete body
-            results = (Select handler.dom, "head title")
-            if results[0]
-              msg.send results[0].children[0].data.replace(/(\r\n|\n|\r)/gm,"").trim()
-            else
-              results = (Select handler.dom, "title")
+            try
+              parser.parseComplete body
+              results = (Select handler.dom, "head title")
               if results[0]
                 msg.send results[0].children[0].data.replace(/(\r\n|\n|\r)/gm,"").trim()
+              else
+                results = (Select handler.dom, "title")
+                if results[0]
+                  msg.send results[0].children[0].data.replace(/(\r\n|\n|\r)/gm,"").trim()
           else
             msg.send "Error " + res.statusCode
 
